@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Koszulki z logo firmy, odzież firmowa z nadrukiem | Koszulka z Nadrukiem</title>
+<meta name="description" content="Koszulki firmowe z Twoim logo: nadruk na piersi, z przodu, na plecach lub obustronny. Wycena i wizualizacja przed drukiem, gotowe wzory logo, wysyłka w całej Polsce. Skoczów, tel. 509 915 212.">
+<meta name="theme-color" content="#1e2434">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-760.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/archivo-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:Archivo;src:url(fonts/archivo-rdzen.woff2) format("woff2");font-weight:400 800;font-stretch:75% 100%;font-display:swap;unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Archivo;src:url(fonts/archivo-pl.woff2) format("woff2");font-weight:400 800;font-stretch:75% 100%;font-display:swap;unicode-range:U+0104-0107,U+010C-010D,U+0118-011B,U+0141-0144,U+0158-0161,U+016E-016F,U+0179-017E}
+@font-face{font-family:"Archivo fb";src:local("Arial");size-adjust:104%;ascent-override:88%;descent-override:22%}
+:root{--navy:#1e2434;--navy2:#2a3247;--yel:#fbb901;--yel2:#e5a800;--ink:#151a26;--mut:#4b5263;--g:#eef0f3;--line:#d8dce3;--hh:60px;--w:min(calc(100vw - 32px),1720px)}
+@media (min-width:761px){:root{--hh:78px;--w:min(92vw,1720px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Archivo,"Archivo fb",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(16px,.2vw + 15px,19px);line-height:1.6;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-weight:800;font-stretch:88%;line-height:1.05;letter-spacing:-.01em}
+h2{font-size:clamp(30px,3.1vw,60px)}
+h3{font-size:clamp(19px,1.2vw,24px);font-stretch:95%;font-weight:700;line-height:1.2}
+p{margin:0}
+.wrap{width:var(--w);margin:0 auto}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:8px;z-index:99;background:#fff;padding:8px 12px}
+/* przycisk = dymek z logo: prostokat z ogonkiem w lewym dolnym rogu */
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 30px;background:var(--yel);color:var(--navy);font:800 1.05rem/1 Archivo,"Archivo fb",Arial,sans-serif;font-stretch:92%;text-decoration:none;border:0;cursor:pointer;margin-bottom:10px;-webkit-tap-highlight-color:transparent;transition:background .15s}
+.btn::after{content:"";position:absolute;left:18px;top:100%;border-style:solid;border-width:10px 12px 0 0;border-color:var(--yel) transparent transparent transparent;transition:border-color .15s}
+.btn:hover{background:#ffc928}.btn:hover::after{border-top-color:#ffc928}
+.btn.ciem{background:var(--navy);color:#fff}.btn.ciem::after{border-top-color:var(--navy)}
+.btn.ciem:hover{background:var(--navy2)}.btn.ciem:hover::after{border-top-color:var(--navy2)}
+.btn:focus-visible,.menu a:focus-visible{outline:3px solid var(--yel);outline-offset:3px}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+.top.sc{border-bottom-color:var(--line);box-shadow:0 6px 18px rgba(20,26,40,.06)}
+.top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.logo{display:flex;align-items:center;gap:11px;text-decoration:none;min-width:0}
+.logo svg{width:44px;height:44px;flex:none}
+.logo b{display:block;font-weight:800;font-stretch:85%;font-size:1.18rem;line-height:1;letter-spacing:-.01em;white-space:nowrap}
+.logo small{display:block;font-size:.74rem;color:var(--mut);line-height:1.2;margin-top:3px;white-space:nowrap}
+.menu{display:flex;align-items:center;gap:clamp(14px,1.6vw,34px)}
+.menu a{text-decoration:none;font-weight:600;font-size:.98rem;position:relative;padding:6px 0}
+.menu a.on::after,.menu a:not(.btn):not(.kosz):hover::after{content:"";position:absolute;left:0;right:0;bottom:-2px;height:3px;background:var(--yel)}
+.menu .tel{font-weight:800;white-space:nowrap}
+.kosz{display:inline-flex;align-items:center;gap:8px}
+.kosz i{font-style:normal;display:inline-grid;place-items:center;min-width:24px;height:24px;padding:0 6px;background:var(--navy);color:#fff;font-size:.78rem;font-weight:800}
+.ikt{display:none}
+.burger{display:none}
+@media (max-width:1180px){.menu .tel{display:none}}
+@media (max-width:1000px){
+  .menu{position:fixed;inset:var(--hh) 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px 16px 22px;border-top:1px solid var(--line);box-shadow:0 18px 30px rgba(20,26,40,.12);transform:translateY(-8px);opacity:0;visibility:hidden;transition:.2s}
+  .top.open .menu{transform:none;opacity:1;visibility:visible}
+  .menu a{padding:15px 2px;border-bottom:1px solid var(--g);font-size:1.08rem}
+  .menu a.on::after,.menu a:hover::after{display:none}
+  .menu a.on{color:var(--navy);box-shadow:inset 4px 0 0 var(--yel);padding-left:14px}
+  .menu .tel{display:block}
+  .menu .btn{margin-top:16px;border:0}
+  .ikt{display:inline-grid;place-items:center;width:44px;height:44px;margin-left:auto;text-decoration:none;color:var(--navy)}
+  .ikt svg{width:22px;height:22px}
+  .burger{display:inline-grid;place-items:center;width:44px;height:44px;border:0;background:var(--navy);cursor:pointer;padding:0}
+  .burger span,.burger span::before,.burger span::after{display:block;width:20px;height:2px;background:#fff;position:relative;transition:.2s}
+  .burger span::before,.burger span::after{content:"";position:absolute;left:0}
+  .burger span::before{top:-6px}.burger span::after{top:6px}
+  .top.open .burger span{background:transparent}
+  .top.open .burger span::before{top:0;transform:rotate(45deg)}
+  .top.open .burger span::after{top:0;transform:rotate(-45deg)}
+}
+
+/* pierwszy ekran */
+.hero{position:relative;display:flex;align-items:flex-end;min-height:calc(100svh - var(--hh));background:var(--navy);color:#fff;overflow:hidden}
+.hero picture,.hero .foto{position:absolute;inset:0}
+.hero img{width:100%;height:100%;object-fit:cover;object-position:50% 22%}
+.hero .foto::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(18,22,34,.94) 0%,rgba(18,22,34,.78) 30%,rgba(18,22,34,.18) 62%,rgba(18,22,34,0) 80%)}
+.hero-in{position:relative;z-index:2;width:var(--w);margin:0 auto;padding:0 0 clamp(36px,6vh,80px)}
+.hero h1{font-size:clamp(44px,5.4vw,104px);max-width:13ch}
+.hero .opis{font-size:clamp(17px,1.15vw,22px);line-height:1.5;max-width:44ch;margin-top:clamp(14px,2vh,22px);color:#e9ecf2}
+.hero .akcja{display:flex;align-items:center;flex-wrap:wrap;gap:16px 26px;margin-top:clamp(24px,3.4vh,36px)}
+.hero .akcja .zw{color:#fff;font-weight:700;text-decoration:none;font-size:1.05rem;border-bottom:2px solid var(--yel);padding-bottom:2px}
+@media (max-height:820px) and (min-width:761px){.hero h1{font-size:clamp(40px,4.6vw,78px)}}
+@media (max-width:760px){
+  .hero{flex-direction:column;align-items:stretch}
+  .hero .foto{position:relative;flex:1 1 auto;min-height:min(62vw,30svh)}
+  .hero .foto img{position:absolute;inset:0;object-position:63% 30%}
+  .hero .foto::after{background:linear-gradient(0deg,var(--navy) 0%,rgba(30,36,52,.6) 18%,rgba(30,36,52,0) 45%)}
+  .hero-in{flex:0 0 auto;padding:0 0 26px;margin-top:-34px}
+  .hero h1{font-size:clamp(34px,10.2vw,48px);max-width:none}
+  .hero .opis{font-size:15.5px;margin-top:12px}
+  .hero .akcja{margin-top:24px}
+  .hero .akcja .zw{display:none}
+}
+@media (max-width:760px) and (max-height:680px){.hero h1{font-size:clamp(30px,9vw,38px)}.hero .opis{font-size:15px;line-height:1.45}}
+
+/* sekcje */
+.sek{padding:clamp(64px,8vw,130px) 0}
+.sek.szary{background:var(--g)}
+.glowa{display:flex;align-items:flex-end;justify-content:space-between;gap:24px 40px;flex-wrap:wrap;margin-bottom:clamp(28px,3vw,48px)}
+.glowa p{max-width:56ch;color:var(--mut);margin-top:14px}
+.strz{display:flex;gap:8px}
+.strz button{width:52px;height:52px;border:2px solid var(--navy);background:#fff;color:var(--navy);cursor:pointer;display:grid;place-items:center}
+.strz button:hover:not(:disabled){background:var(--navy);color:#fff}
+.strz button:disabled{opacity:.3;cursor:default}
+.strz svg{width:20px;height:20px}
+@media (max-width:760px){.strz{display:none}}
+.tor{display:grid;grid-auto-flow:column;gap:clamp(14px,1.4vw,24px);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:6px;cursor:grab}
+.tor::-webkit-scrollbar{display:none}
+.tor.drag{cursor:grabbing;scroll-snap-type:none}
+.tor>*{scroll-snap-align:start;min-width:0}
+.tor img{-webkit-user-drag:none;user-select:none}
+
+/* kategorie */
+.kat{display:flex;flex-wrap:wrap;gap:6px 26px;margin:0 0 26px;padding:0;list-style:none}
+.kat a{font-weight:700;text-decoration:none;border-bottom:2px solid var(--line);padding-bottom:3px}
+.kat a:hover{border-color:var(--yel)}
+
+/* produkty: zdjecie na metce przechylonej jak w logo */
+#tor-k{grid-auto-columns:calc((100% - 5*clamp(14px,1.4vw,24px))/6)}
+@media (max-width:1500px){#tor-k{grid-auto-columns:calc((100% - 3*clamp(14px,1.4vw,24px))/4)}}
+@media (max-width:1100px){#tor-k{grid-auto-columns:calc((100% - 2*16px)/3)}}
+@media (max-width:760px){#tor-k{grid-auto-columns:72%}}
+.prod{margin:0;display:flex;flex-direction:column}
+.prod .zd{position:relative;display:block;background:var(--g);aspect-ratio:1097/1822;overflow:hidden;border:0;padding:0;width:100%;cursor:zoom-in}
+.prod .zd::before{content:"";position:absolute;left:14%;right:14%;top:7%;bottom:9%;background:#fff;transform:rotate(-5deg);transition:transform .3s}
+.prod:hover .zd::before{transform:rotate(-2deg)}
+.prod .zd img{position:relative;width:100%;height:100%;object-fit:contain;mix-blend-mode:multiply}
+.prod figcaption{padding:16px 2px 0;display:flex;flex-direction:column;gap:6px;flex:1}
+.prod h3{font-size:clamp(16px,1vw,19px)}
+.prod .cena{font-size:1.5rem;font-weight:800;font-stretch:88%;color:var(--navy)}
+.prod .min{font-size:.86rem;color:var(--mut)}
+.prod .wyb{margin-top:auto;padding-top:10px;font-weight:700;font-size:.95rem;text-decoration:none;color:var(--navy);display:inline-flex;gap:8px;align-items:center}
+.prod .wyb::after{content:"";width:18px;height:2px;background:var(--yel);transition:width .2s}
+.prod .wyb:hover::after{width:30px}
+
+/* gotowe wzory */
+#tor-w{grid-auto-columns:calc((100% - 3*clamp(14px,1.4vw,24px))/4)}
+@media (min-width:1700px){#tor-w{grid-auto-columns:calc((100% - 4*clamp(14px,1.4vw,24px))/5)}}
+@media (max-width:1100px){#tor-w{grid-auto-columns:calc((100% - 16px)/2)}}
+@media (max-width:760px){#tor-w{grid-auto-columns:84%}}
+.wz{margin:0}
+.wz a{display:block;background:#fff;border:1px solid var(--line);cursor:zoom-in;transition:border-color .2s}
+.wz a:hover{border-color:var(--navy)}
+.wz img{width:100%;aspect-ratio:1400/525;object-fit:contain}
+.wz figcaption{font-size:.9rem;color:var(--mut);margin-top:8px}
+.wzory-info{flex:1 1 640px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:24px 60px;align-items:end}
+@media (max-width:900px){.wzory-info{grid-template-columns:1fr}}
+
+/* jak zamowic */
+.jak{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(36px,5vw,110px);align-items:center}
+.jak ol{list-style:none;margin:30px 0 0;padding:0;counter-reset:k}
+.jak li{counter-increment:k;display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 18px;padding:18px 0;border-top:1px solid var(--line)}
+.jak li:last-child{border-bottom:1px solid var(--line)}
+.jak li::before{content:counter(k);grid-row:span 2;font-weight:800;font-stretch:80%;font-size:1.6rem;line-height:1.1;color:var(--yel2);min-width:1.1em}
+.jak li b{font-size:1.12rem}
+.jak li span{color:var(--mut)}
+.metka{position:relative;margin:0 auto;width:min(100%,640px);padding:7% 9%}
+.metka::before{content:"";position:absolute;inset:0 12% 4% 6%;background:var(--navy)}
+.metka::after{content:"";position:absolute;inset:6% 4% 0 18%;border:3px solid var(--yel)}
+.metka a{position:relative;z-index:1;display:block;transform:rotate(-6deg);background:#fff;box-shadow:0 20px 40px rgba(20,26,40,.18);cursor:zoom-in}
+.metka img{width:100%;aspect-ratio:1/1;object-fit:cover}
+.fakty{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:clamp(48px,6vw,90px);border-top:3px solid var(--navy)}
+.fakty div{padding:22px 26px 6px 0}
+.fakty dt{font-weight:800;font-stretch:90%;font-size:1.08rem}
+.fakty dd{margin:6px 0 0;color:var(--mut);font-size:.98rem}
+@media (max-width:1000px){.jak{grid-template-columns:1fr}.fakty{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:520px){.fakty{grid-template-columns:1fr}.fakty div{padding-right:0;border-bottom:1px solid var(--line);padding-bottom:16px}}
+
+/* druk - mocna sekcja */
+.druk{background:var(--navy);color:#fff}
+.druk-g{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.15fr);gap:clamp(16px,2vw,32px);align-items:end}
+.druk figure{margin:0}
+.druk figure a{display:block;cursor:zoom-in;overflow:hidden}
+.druk figure img{width:100%;aspect-ratio:3/4;object-fit:cover;transition:transform .5s}
+.druk figure a:hover img{transform:scale(1.03)}
+.druk figcaption{font-size:.9rem;color:#b9c0cf;margin-top:10px}
+.druk figure:nth-child(2){transform:translateY(-36px)}
+.druk-t{padding-left:clamp(0px,2vw,40px)}
+.druk-t p{color:#d5dae4;margin-top:18px;max-width:52ch}
+.druk-t ul{list-style:none;margin:26px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}
+.druk-t li{padding:12px 0;border-top:1px solid rgba(255,255,255,.16);font-weight:700}
+.druk-t li span{display:block;font-weight:400;color:#b9c0cf;font-size:.92rem}
+.druk h2{color:#fff}
+.druk .zolta{display:block;width:72px;height:6px;background:var(--yel);margin-bottom:26px;transform:skewX(-20deg)}
+@media (max-width:1000px){.druk-g{grid-template-columns:repeat(2,minmax(0,1fr))}.druk-t{grid-column:1/-1;padding:0;order:-1}.druk figure:nth-child(2){transform:none}}
+
+/* opinie */
+.op{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,2fr);gap:clamp(30px,5vw,100px);align-items:start}
+.op .proc{font-size:1.1rem;color:var(--mut);margin-top:16px;max-width:30ch}
+.op .proc b{color:var(--ink)}
+.cyt{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(24px,3vw,60px)}
+.cyt blockquote{margin:0;padding:24px 0;border-top:1px solid var(--line);font-size:clamp(17px,1.15vw,22px);line-height:1.45;font-weight:500}
+.cyt blockquote::before{content:"";display:block;width:26px;height:20px;margin-bottom:12px;background:var(--yel);clip-path:polygon(0 0,100% 0,100% 72%,38% 72%,14% 100%,18% 72%,0 72%)}
+.cyt cite{display:block;font-style:normal;font-size:.9rem;color:var(--mut);margin-top:10px;font-weight:400}
+@media (max-width:900px){.op{grid-template-columns:1fr}.cyt{grid-template-columns:1fr}}
+
+/* kontakt */
+.kon{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(36px,5vw,110px);align-items:start}
+.kon .lead{color:var(--mut);margin-top:16px;max-width:46ch}
+.dane{margin:32px 0 0;padding:0;list-style:none}
+.dane li{padding:16px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:120px minmax(0,1fr);gap:12px}
+.dane li span{color:var(--mut);font-size:.92rem}
+.dane a{font-weight:700;text-decoration:none;font-size:1.12rem}
+.dane a:hover{text-decoration:underline;text-decoration-color:var(--yel);text-decoration-thickness:3px}
+form{background:#fff;padding:clamp(22px,2.6vw,44px);border-top:6px solid var(--yel)}
+.pola{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.pola .cale{grid-column:1/-1}
+label{display:block;font-weight:700;font-size:.92rem;margin-bottom:6px}
+input,textarea,select{width:100%;font:inherit;font-size:16px;padding:13px 14px;border:1.5px solid #c3c9d3;background:#fff;color:var(--ink);border-radius:0}
+input:focus,textarea:focus,select:focus{outline:none;border-color:var(--navy);box-shadow:0 0 0 3px rgba(251,185,1,.45)}
+[aria-invalid="true"]{border-color:#c0392b}
+textarea{min-height:120px;resize:vertical}
+.zg{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:.86rem;color:var(--mut);margin-top:4px}
+.zg input{width:20px;height:20px;flex:none;margin-top:2px}
+form .btn{margin-top:22px}
+.ok{margin-top:18px;padding:14px 16px;background:var(--g);font-weight:600}
+.uw{font-size:.82rem;color:var(--mut);margin-top:14px}
+@media (max-width:1000px){.kon{grid-template-columns:1fr}}
+@media (max-width:560px){.pola{grid-template-columns:1fr}.dane li{grid-template-columns:1fr;gap:2px}}
+
+/* stopka */
+.stopka{background:#151a26;color:#c9cfdb;padding:clamp(48px,5vw,80px) 0 24px;font-size:.95rem}
+.st-g{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:30px 40px}
+.stopka h3{color:#fff;font-size:1rem;margin-bottom:12px;font-stretch:95%}
+.stopka ul{list-style:none;margin:0;padding:0}
+.stopka li{padding:4px 0}
+.stopka a{text-decoration:none}.stopka a:hover{color:#fff;text-decoration:underline}
+.stopka .logo b{color:#fff}.stopka .logo small{color:#9aa3b5}
+.stopka .o{margin-top:16px;max-width:36ch}
+.st-d{display:flex;justify-content:space-between;align-items:center;gap:12px 24px;flex-wrap:wrap;margin-top:44px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);font-size:.86rem;color:#9aa3b5}
+@media (max-width:900px){.st-g{grid-template-columns:repeat(2,minmax(0,1fr))}.st-g>div:first-child{grid-column:1/-1}}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+
+
+/* pasek na telefonie */
+.mob{display:none}
+@media (max-width:760px){
+  .mob{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1.3fr;background:#fff;box-shadow:0 -1px 0 var(--line),0 -8px 20px rgba(0,0,0,.08);transform:translateY(110%);transition:transform .25s;padding-bottom:env(safe-area-inset-bottom)}
+  .mob a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:56px;font-weight:800;text-decoration:none;color:var(--navy)}
+  .mob a:last-child{background:var(--yel)}
+  .mob svg{width:19px;height:19px}
+  .mob.widac{transform:none}
+  .stopka{padding-bottom:80px}
+}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(14,17,26,.95);display:none;align-items:center;justify-content:center;flex-direction:column;padding:56px 12px 20px}
+.lb.otw{display:flex}
+.lb img{max-width:min(96vw,1500px);max-height:80vh;width:auto;height:auto;object-fit:contain;background:#fff}
+.lb p{color:#e8eaed;margin-top:14px;text-align:center;font-size:.95rem}
+.lb button{position:absolute;background:none;border:0;color:#fff;cursor:pointer;width:52px;height:52px;display:grid;place-items:center}
+.lb button svg{width:28px;height:28px}
+.lb .x{top:6px;right:8px}.lb .p{left:6px;top:50%;transform:translateY(-50%)}.lb .n{right:6px;top:50%;transform:translateY(-50%)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#koszulki">Przejdź do treści</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="znak" viewBox="0 0 100 100"><rect width="100" height="100" fill="#1e2434"/><rect x="27" y="11" width="48" height="70" fill="#fff"/><g transform="rotate(-12 50 54)"><path d="M28 33 41 27Q50 34 59 27L72 33 82 47 73 52 70 47V75H57L51 86 49 75H30V47L27 52 18 47Z" fill="#1e2434" stroke="#fff" stroke-width="4" stroke-linejoin="round"/><text x="50" y="68" font-family="Arial Black,Archivo,Arial,sans-serif" font-weight="900" font-size="30" fill="#fff" text-anchor="middle">?</text></g></symbol>
+  <symbol id="i-tel" viewBox="0 0 24 24"><path d="M7 3h3l1.5 5-2 1.3a11 11 0 0 0 5.2 5.2l1.3-2 5 1.5v3a2 2 0 0 1-2 2A17 17 0 0 1 5 5a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="miter"/></symbol>
+  <symbol id="i-l" viewBox="0 0 24 24"><path d="M15 4 7 12l8 8" fill="none" stroke="currentColor" stroke-width="2.6"/></symbol>
+  <symbol id="i-p" viewBox="0 0 24 24"><path d="m9 4 8 8-8 8" fill="none" stroke="currentColor" stroke-width="2.6"/></symbol>
+</svg>
+
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#start" aria-label="Koszulka z Nadrukiem - odzież dla firm, strona główna"><svg aria-hidden="true"><use href="#znak"/></svg><span><b>Odzież dla firm</b><small>Koszulka z Nadrukiem</small></span></a>
+    <a class="ikt" href="tel:+48509915212" aria-label="Zadzwoń: 509 915 212"><svg aria-hidden="true"><use href="#i-tel"/></svg></a>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><span></span></button>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#koszulki">Koszulki</a>
+      <a href="#wzory">Gotowe wzory</a>
+      <a href="#jak">Jak zamówić</a>
+      <a href="#druk">Nadruk</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="tel" href="tel:+48509915212">509 915 212</a>
+      <a class="kosz" href="#koszulki">Koszyk <i>0</i></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="start" aria-labelledby="h1">
+  <div class="foto">
+    <picture>
+      <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w" sizes="100vw">
+      <img src="img/hero-1600.webp" srcset="img/hero-640.webp 640w, img/hero-1024.webp 1024w, img/hero-1600.webp 1600w" sizes="100vw" width="1600" height="1067" alt="Dwie osoby wybierają koszulki do nadruku przy laptopie" fetchpriority="high">
+    </picture>
+  </div>
+  <div class="hero-in">
+    <h1 id="h1">Koszulki z logo Twojej firmy</h1>
+    <p class="opis">Przysyłasz logo albo wybierasz gotowy wzór, a my przygotowujemy wycenę i wizualizację. Akceptujesz - drukujemy i wysyłamy.</p>
+    <div class="akcja">
+      <a class="btn" href="#koszulki">Wybierz koszulkę</a>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="koszulki" aria-labelledby="h-k">
+  <div class="wrap">
+    <div class="glowa">
+      <div>
+        <h2 id="h-k">Najczęściej wybierane koszulki</h2>
+        <p>Cena obejmuje koszulkę i nadruk. Rozmiar (S-XXL) i kolor wybierasz na stronie produktu, a grafikę przesyłasz po złożeniu zamówienia.</p>
+      </div>
+      <div class="strz" data-nav="tor-k"><button type="button" data-k="-1" aria-label="Poprzednie"><svg aria-hidden="true"><use href="#i-l"/></svg></button><button type="button" data-k="1" aria-label="Następne"><svg aria-hidden="true"><use href="#i-p"/></svg></button></div>
+    </div>
+    <ul class="kat" aria-label="Kategorie">
+      <li><a href="#koszulki">Logo na piersi</a></li>
+      <li><a href="#koszulki">Nadruk z przodu</a></li>
+      <li><a href="#koszulki">Nadruk na plecach</a></li>
+      <li><a href="#koszulki">Nadruk obustronny</a></li>
+    </ul>
+    <div class="tor" id="tor-k" data-tor data-grupa>
+      <figure class="prod">
+        <button class="zd" type="button" data-lb="img/p-biala-przod-840.webp" aria-label="Powiększ zdjęcie"><img src="img/p-biala-przod-420.webp" width="420" height="698" loading="lazy" alt="Biała męska koszulka z kolorowym logo na przodzie"></button>
+        <figcaption><h3>Męska koszulka z nadrukiem w pełnym kolorze - przód</h3><span class="cena">40,99 zł</span><span class="min">nadruk wielokolorowy od 10 szt.</span><a class="wyb" href="#koszulki">Wybierz rozmiar i kolor</a></figcaption>
+      </figure>
+      <figure class="prod">
+        <button class="zd" type="button" data-lb="img/p-damska-przod-840.webp" aria-label="Powiększ zdjęcie"><img src="img/p-damska-przod-420.webp" width="420" height="698" loading="lazy" alt="Czarna damska koszulka z dużym logo na przodzie"></button>
+        <figcaption><h3>Damska koszulka z dużym, jednokolorowym nadrukiem - przód</h3><span class="cena">34,99 zł</span><a class="wyb" href="#koszulki">Wybierz rozmiar i kolor</a></figcaption>
+      </figure>
+      <figure class="prod">
+        <button class="zd" type="button" data-lb="img/p-gotowe-tyl-840.webp" aria-label="Powiększ zdjęcie"><img src="img/p-gotowe-tyl-420.webp" width="420" height="698" loading="lazy" alt="Czarna koszulka z gotowym wzorem logo na plecach"></button>
+        <figcaption><h3>Męska koszulka z jednokolorowym nadrukiem - tył, gotowe wzory logo</h3><span class="cena">40,99 zł</span><a class="wyb" href="#koszulki">Wybierz rozmiar i kolor</a></figcaption>
+      </figure>
+      <figure class="prod">
+        <button class="zd" type="button" data-lb="img/p-damska-tyl-840.webp" aria-label="Powiększ zdjęcie"><img src="img/p-damska-tyl-420.webp" width="420" height="698" loading="lazy" alt="Czarna damska koszulka z logo na plecach"></button>
+        <figcaption><h3>Damska koszulka z jednokolorowym nadrukiem - tył</h3><span class="cena">34,99 zł</span><a class="wyb" href="#koszulki">Wybierz rozmiar i kolor</a></figcaption>
+      </figure>
+      <figure class="prod">
+        <button class="zd" type="button" data-lb="img/p-obustronny-840.webp" aria-label="Powiększ zdjęcie"><img src="img/p-obustronny-420.webp" width="420" height="698" loading="lazy" alt="Czarna damska koszulka z kolorowym nadrukiem z przodu i z tyłu"></button>
+        <figcaption><h3>Damska koszulka z nadrukiem obustronnym w pełnym kolorze</h3><span class="cena">45,00 zł</span><span class="min">nadruk wielokolorowy od 10 szt.</span><a class="wyb" href="#koszulki">Wybierz rozmiar i kolor</a></figcaption>
+      </figure>
+      <figure class="prod">
+        <button class="zd" type="button" data-lb="img/p-biala-tekst-840.webp" aria-label="Powiększ zdjęcie"><img src="img/p-biala-tekst-420.webp" width="420" height="698" loading="lazy" alt="Biała damska koszulka z dużym nadrukiem tekstu na przodzie"></button>
+        <figcaption><h3>Damska koszulka z jednokolorowym obustronnym nadrukiem</h3><span class="cena">40,99 zł</span><a class="wyb" href="#koszulki">Wybierz rozmiar i kolor</a></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="sek szary" id="wzory" aria-labelledby="h-w">
+  <div class="wrap">
+    <div class="glowa">
+      <div class="wzory-info">
+        <h2 id="h-w">Nie masz logo? Wybierz gotowy wzór</h2>
+        <p>Wystarczy podać nazwę firmy i numer telefonu, a na tej podstawie przygotujemy logo w jednym kolorze. Można też poprosić o inny układ albo inne dane w wybranym wzorze.</p>
+      </div>
+      <div class="strz" data-nav="tor-w"><button type="button" data-k="-1" aria-label="Poprzednie wzory"><svg aria-hidden="true"><use href="#i-l"/></svg></button><button type="button" data-k="1" aria-label="Następne wzory"><svg aria-hidden="true"><use href="#i-p"/></svg></button></div>
+    </div>
+    <div class="tor" id="tor-w" data-tor data-grupa>
+      <figure class="wz"><a href="img/w01-1400.webp" data-lb="img/w01-1400.webp"><img src="img/w01-700.webp" width="700" height="262" loading="lazy" alt="Wzór logo nr 1: koparka, nazwa firmy i telefon"></a></figure>
+      <figure class="wz"><a href="img/w02-1400.webp" data-lb="img/w02-1400.webp"><img src="img/w02-700.webp" width="700" height="262" loading="lazy" alt="Wzór logo nr 2: narzędzia, nazwa firmy i telefon"></a></figure>
+      <figure class="wz"><a href="img/w03-1400.webp" data-lb="img/w03-1400.webp"><img src="img/w03-700.webp" width="700" height="262" loading="lazy" alt="Wzór logo nr 3: paca tynkarska, nazwa firmy i telefon"></a></figure>
+      <figure class="wz"><a href="img/w04-1400.webp" data-lb="img/w04-1400.webp"><img src="img/w04-700.webp" width="700" height="262" loading="lazy" alt="Wzór logo nr 4: kask, nazwa firmy i telefon"></a></figure>
+      <figure class="wz"><a href="img/w05-1400.webp" data-lb="img/w05-1400.webp"><img src="img/w05-700.webp" width="700" height="262" loading="lazy" alt="Wzór logo nr 5: dach, nazwa firmy i telefon"></a></figure>
+      <figure class="wz"><a href="img/w06-1400.webp" data-lb="img/w06-1400.webp"><img src="img/w06-700.webp" width="700" height="262" loading="lazy" alt="Wzór logo nr 6: dom, nazwa firmy i telefon"></a></figure>
+      <figure class="wz"><a href="img/w07-1400.webp" data-lb="img/w07-1400.webp"><img src="img/w07-700.webp" width="700" height="262" loading="lazy" alt="Wzór logo nr 7: dom z pędzlem, nazwa firmy i telefon"></a></figure>
+      <figure class="wz"><a href="img/w08-1400.webp" data-lb="img/w08-1400.webp"><img src="img/w08-700.webp" width="700" height="262" loading="lazy" alt="Wzór logo nr 8: dachy z pędzlem, nazwa firmy i telefon"></a></figure>
+      <figure class="wz"><a href="img/w09-1400.webp" data-lb="img/w09-1400.webp"><img src="img/w09-700.webp" width="700" height="262" loading="lazy" alt="Wzór logo nr 9: usługi budowlane, nazwa firmy i telefon"></a></figure>
+      <figure class="wz"><a href="img/w10-1400.webp" data-lb="img/w10-1400.webp"><img src="img/w10-700.webp" width="700" height="262" loading="lazy" alt="Wzór logo nr 10: sama nazwa firmy i telefon"></a></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="jak" aria-labelledby="h-j">
+  <div class="wrap">
+    <div class="jak">
+      <div>
+        <h2 id="h-j">Ty dajesz znak, a my działamy</h2>
+        <ol>
+          <li><b>Wybierasz koszulkę i miejsce nadruku</b><span>Na piersi, z przodu, na plecach albo obustronnie. Rozmiar i kolor zaznaczasz przy produkcie.</span></li>
+          <li><b>Przesyłasz logo albo dane do wzoru</b><span>Najlepiej plik wektorowy, bo od jakości pliku zależy jakość nadruku. Przy gotowym wzorze wystarczy nazwa i telefon.</span></li>
+          <li><b>Dostajesz wycenę i wizualizację</b><span>Widzisz, jak koszulka będzie wyglądać, zanim cokolwiek trafi do druku.</span></li>
+          <li><b>Akceptujesz, a my drukujemy i wysyłamy</b><span>Paczka trafia pod wskazany adres w całej Polsce.</span></li>
+        </ol>
+      </div>
+      <div class="metka"><a href="img/zolte-1000.webp" data-lb="img/zolte-1000.webp"><img src="img/zolte-600.webp" width="600" height="600" loading="lazy" alt="Złożone żółte koszulki z kolorowym logo na piersi"></a></div>
+    </div>
+    <dl class="fakty">
+      <div><dt>Od 10 sztuk</dt><dd>przy nadruku wielokolorowym i własnym projekcie; mniejsze ilości po sprawdzeniu grafiki</dd></div>
+      <div><dt>7-10 dni roboczych</dt><dd>standardowy czas realizacji, przy dużych zamówieniach może się wydłużyć</dd></div>
+      <div><dt>Darmowa wysyłka</dt><dd>przy zamówieniach powyżej 300 zł</dd></div>
+      <div><dt>Wygodna płatność</dt><dd>przelew tradycyjny albo szybki przelew online i BLIK przez CashBill</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="sek druk" id="druk" aria-labelledby="h-d">
+  <div class="wrap druk-g" data-grupa>
+    <figure><a href="img/druk-dtg-1000.webp" data-lb="img/druk-dtg-1000.webp"><img src="img/druk-dtg-600.webp" width="600" height="934" loading="lazy" alt="Drukarka DTG z białą koszulką na stole roboczym"></a><figcaption>Druk bezpośredni DTG</figcaption></figure>
+    <figure><a href="img/druk-prasa-1000.webp" data-lb="img/druk-prasa-1000.webp"><img src="img/druk-prasa-600.webp" width="600" height="934" loading="lazy" alt="Prasa termotransferowa nad niebieską koszulką z nadrukiem"></a><figcaption>Termotransfer i folia flex</figcaption></figure>
+    <div class="druk-t">
+      <span class="zolta" aria-hidden="true"></span>
+      <h2 id="h-d">Nadruk, który się nie spiera</h2>
+      <p>Najczęściej drukujemy metodą DTG, która pozwala tanio realizować także zamówienia indywidualne. Przy odzieży dla firm dobieramy technikę do grafiki i materiału, bo to ona decyduje o cenie zlecenia.</p>
+      <ul>
+        <li>DTG / DTF<span>pełny kolor, zdjęcia, gradienty</span></li>
+        <li>Folia flex<span>napisy i logo w jednym kolorze</span></li>
+        <li>Flock<span>aksamitny, wypukły nadruk</span></li>
+        <li>Fruit of the Loom Iconic 150<span>bawełna czesana ring spun</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sek" id="opinie" aria-labelledby="h-o">
+  <div class="wrap op">
+    <div>
+      <h2 id="h-o">Co piszą klienci</h2>
+      <p class="proc"><b>99,5% kupujących na Allegro</b> poleca nasze koszulki.</p>
+    </div>
+    <div class="cyt">
+      <blockquote>Miły kontakt, ekspresowa przesyłka, towar bardzo dobrej jakości, starannie wykonany.<cite>A.M., opinia z Allegro</cite></blockquote>
+      <blockquote>Wszystko super, koszulka pasuje, fantastyczna obsługa. Polecam!<cite>J.Z., opinia z Allegro</cite></blockquote>
+      <blockquote>Polecam, ekspresowe wykonanie i dostarczenie!<cite>K.K., opinia z Allegro</cite></blockquote>
+      <blockquote>Bardzo szybka realizacja, polecam serdecznie.<cite>M.A., opinia z Allegro</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="sek szary" id="kontakt" aria-labelledby="h-c">
+  <div class="wrap kon">
+    <div>
+      <h2 id="h-c">Większe zamówienie? Zapytaj o wycenę</h2>
+      <p class="lead">Przy większej liczbie koszulek przygotujemy indywidualną wycenę i ustalimy warunki. Napisz, ile sztuk potrzebujesz i co ma się znaleźć na nadruku.</p>
+      <ul class="dane">
+        <li><span>Telefon</span><a href="tel:+48509915212">509 915 212</a></li>
+        <li><span>Godziny</span><div>telefonicznie 8:00-16:00</div></li>
+        <li><span>E-mail</span><a href="mailto:biuro@odziezdlafirmy.pl">biuro@odziezdlafirmy.pl</a></li>
+        <li><span>Adres</span><div>ul. Kiczycka 21A, 43-430 Skoczów</div></li>
+      </ul>
+    </div>
+    <form id="form" novalidate>
+      <div class="pola">
+        <div><label for="f-i">Imię i nazwisko</label><input id="f-i" name="imie" autocomplete="name" required></div>
+        <div><label for="f-f">Firma</label><input id="f-f" name="firma" autocomplete="organization"></div>
+        <div><label for="f-e">E-mail</label><input id="f-e" name="email" type="email" autocomplete="email" required></div>
+        <div><label for="f-t">Telefon</label><input id="f-t" name="tel" type="tel" autocomplete="tel"></div>
+        <div><label for="f-s">Liczba koszulek</label><select id="f-s" name="ile"><option>10-24 szt.</option><option>25-49 szt.</option><option>50-99 szt.</option><option>100 szt. i więcej</option></select></div>
+        <div><label for="f-p">Logo lub grafika</label><input id="f-p" name="plik" type="file" accept=".pdf,.ai,.eps,.svg,.png,.jpg"></div>
+        <div class="cale"><label for="f-w">Wiadomość</label><textarea id="f-w" name="wiad" placeholder="Np. 30 granatowych koszulek męskich, logo na piersi, napis na plecach"></textarea></div>
+        <label class="zg cale"><input type="checkbox" required> Zgadzam się na kontakt w sprawie wyceny i przetwarzanie moich danych w tym celu.</label>
+      </div>
+      <button class="btn ciem" type="submit">Wyślij zapytanie</button>
+      <p class="ok" id="msg" hidden>Dziękujemy, to podgląd strony - na gotowej stronie zapytanie trafi na biuro@odziezdlafirmy.pl.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="st-g">
+      <div>
+        <a class="logo" href="#start"><svg aria-hidden="true"><use href="#znak"/></svg><span><b>Odzież dla firm</b><small>Koszulka z Nadrukiem</small></span></a>
+        <p class="o">Koszulki firmowe z logo, napisem lub gotowym wzorem. Wysyłka w całej Polsce.</p>
+      </div>
+      <div><h3>Sklep</h3><ul><li><a href="#koszulki">Koszulki</a></li><li><a href="#wzory">Gotowe wzory logo</a></li><li><a href="#koszulki">Koszyk</a></li><li><a href="#koszulki">Moje konto</a></li></ul></div>
+      <div><h3>Informacje</h3><ul><li><a href="#jak">Dostawa</a></li><li><a href="#jak">Formy płatności</a></li><li><a href="#kontakt">Regulamin sklepu</a></li><li><a href="#kontakt">Polityka prywatności</a></li></ul></div>
+      <div><h3>Kontakt</h3><ul><li><a href="tel:+48509915212">509 915 212</a></li><li><a href="mailto:biuro@odziezdlafirmy.pl">biuro@odziezdlafirmy.pl</a></li><li>ul. Kiczycka 21A</li><li>43-430 Skoczów</li></ul></div>
+    </div>
+    <div class="st-d"><span>© <span id="rok">2026</span> Koszulka z Nadrukiem Jacek Gesing</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=odziezdlafirmy.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+</div>
+  </div>
+</footer>
+
+<nav class="mob" id="mob" aria-label="Szybki kontakt"><a href="tel:+48509915212"><svg aria-hidden="true"><use href="#i-tel"/></svg>Zadzwoń</a><a href="#koszulki">Wybierz koszulkę</a></nav>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+  <button class="x" type="button" aria-label="Zamknij"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19" stroke="currentColor" stroke-width="2.4"/></svg></button>
+  <button class="p" type="button" aria-label="Poprzednie"><svg aria-hidden="true"><use href="#i-l"/></svg></button>
+  <img alt="">
+  <button class="n" type="button" aria-label="Następne"><svg aria-hidden="true"><use href="#i-p"/></svg></button>
+  <p></p>
+</div>
+<script src="app.js" defer></script>
+</body>
+</html>
